@@ -2,7 +2,7 @@
 
 def main():
 
-    rooms = ((1,2,3),(0,),(4,6),(5,3),(4,),(3,7),(6,8),(7,9))
+    rooms = ((1,2,3),(0,),(0,),(0,4,6),(3,5),(4,),(3,7),(6,8),(7,9))
     roomnames=('Basement','Dusy Painting','Basement part 2','Kitchen',
                'Living Room','Secret Room','Dark Room','Garage','Driveway','Outside')
     items=['','1/11/16','','Crowbar','Motorbike Key','','Candle','','','']
