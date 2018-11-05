@@ -16,6 +16,7 @@ def main():
     while (getroom != 'x'):
 
         print('Current room #{0}: {1}'.format(currentroom,roomnames[currentroom]))
+        print('')    
 
         # If there is an item in this room, add it to the inventory
          # and remove it from the items list replacing it with ''
@@ -30,8 +31,8 @@ def main():
 
         for i in rooms[currentroom]:
             print("\t Room #{0}: {1}".format(i,roomnames[i]))
-            
 
+        print('')
         getroom = input('Where to? ')
 
         if getroom.isnumeric():
@@ -40,6 +41,7 @@ def main():
         if nextroom in rooms[currentroom]:
             currentroom=nextroom
 
+        print('')
         if inventory != []:
             print(inventory)
  
