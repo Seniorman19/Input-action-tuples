@@ -40,6 +40,7 @@ def main():
         if nextroom in rooms[currentroom]:
             currentroom=nextroom
 
-        print(inventory)
+        if inventory != []:
+            print(inventory)
  
 main()
